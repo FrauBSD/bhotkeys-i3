@@ -1,0 +1,13 @@
+id i3-vol-down
+group x11/bhotkeys-i3
+label Volume down
+chord XF86AudioLowerVolume
+enabled 0
+enabled 1 i3
+session 0
+session 1 i3
+repeat 0
+greeter 0
+listen 0
+desc Lower the volume. i3 owns the key.
+# i3 XF86AudioLowerVolume pactl set-sink-volume @DEFAULT_SINK@ -10%

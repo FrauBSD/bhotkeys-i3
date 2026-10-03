@@ -1,0 +1,13 @@
+id i3-mic-mute
+group x11/bhotkeys-i3
+label Microphone mute
+chord XF86AudioMicMute
+enabled 0
+enabled 1 i3
+session 0
+session 1 i3
+repeat 0
+greeter 0
+listen 0
+desc Mute the microphone. i3 owns the key.
+# i3 XF86AudioMicMute pactl set-source-mute @DEFAULT_SOURCE@ toggle

@@ -1,0 +1,13 @@
+id i3-vol-up
+group x11/bhotkeys-i3
+label Volume up
+chord XF86AudioRaiseVolume
+enabled 0
+enabled 1 i3
+session 0
+session 1 i3
+repeat 0
+greeter 0
+listen 0
+desc Raise the volume. i3 owns the key.
+# i3 XF86AudioRaiseVolume pactl set-sink-volume @DEFAULT_SINK@ +10%
