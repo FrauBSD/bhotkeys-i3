@@ -1,3 +1,5 @@
+[//]: # ($FrauBSD: bhotkeys-i3/README.md 2026-10-03 21:52:02 -0700 Devin Teske $)
+
 # bhotkeys-i3
 
 The packaged i3 config's audio bindings as rows in the bhotkeys
